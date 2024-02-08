@@ -1,0 +1,61 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.center {
+  padding: 0 calc(50% - 600px);
+}
+
+/*--------------ШАПКА САЙТА----------*/
+.header {
+  background-image: url(../images/main_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1024px;
+  max-width: 100%;
+}
+.header__top {
+  padding-top: 217px;
+  height: 312px;
+  max-width: 760px;
+}
+.header__title, .header__opis {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-family: inherit;
+}
+.header__title {
+  font-size: 64px;
+  line-height: 78px;
+  font-weight: 700;
+}
+.header__opis {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-top: 37px;
+}
+.header__opis_white {
+  font-weight: 700;
+}
+.header__btn {
+  border: none;
+  border-radius: 30px;
+  background: rgb(156, 3, 50);
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 44px;
+  padding: 13px 74px;
+  text-align: left;
+}/*# sourceMappingURL=main.css.map */
