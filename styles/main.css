@@ -58,4 +58,44 @@ body {
   margin-top: 44px;
   padding: 13px 74px;
   text-align: left;
+}
+
+/*------------ГЛАВНЫЙ КОНТЕНТ----------*/
+.main {
+  background-color: rgb(0, 9, 21);
+  height: 556px;
+}
+
+.games {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 128px;
+}
+.games__game-link img {
+  position: relative;
+}
+.games__game-opis {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  top: 1388.36px;
+}
+.games__game-opis_one {
+  left: 16em;
+}
+.games__game-opis_two {
+  left: 33em;
+}
+.games__game-opis_three {
+  left: 50em;
 }/*# sourceMappingURL=main.css.map */
