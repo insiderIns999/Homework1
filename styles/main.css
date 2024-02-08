@@ -59,6 +59,11 @@ body {
   padding: 13px 74px;
   text-align: left;
 }
+.header__btn:hover {
+  border-radius: 30px;
+  background: rgb(235, 68, 63);
+  cursor: url("../images/pointer.png") 4.1, pointer;
+}
 
 /*------------ГЛАВНЫЙ КОНТЕНТ----------*/
 .main {
@@ -70,12 +75,22 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
   align-content: center;
   align-items: center;
   justify-content: space-between;
   padding-top: 128px;
+}
+.games__game {
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+.games__game:hover {
+  border: 3px solid rgb(68, 210, 255);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  cursor: url("../images/pointer.png") 4.1, pointer;
 }
 .games__game-link img {
   position: relative;
