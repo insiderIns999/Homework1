@@ -68,7 +68,7 @@ body {
         &:hover {
             border-radius: 30px;
             background: rgb(235, 68, 63);
-            cursor: url('../images/pointer.png') 4.1, pointer;
+            cursor: pointer;
         }
     }
 }
@@ -95,10 +95,10 @@ body {
         box-sizing: border-box;
 
         &:hover {
-            border: 3px solid rgb(68, 210, 255);
+            outline: 3px solid rgb(68, 210, 255);
             -moz-box-sizing: border-box;
             -webkit-box-sizing: border-box;
-            cursor: url('../images/pointer.png') 4.1, pointer;
+            cursor: pointer;
         }
     }
 
